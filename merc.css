@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: auto;
+    background-color: #9d9d9d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    font-size: 200px;
+}
+.headNav{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    
+}
+.headNav h3{font-size: 20px;}
+.headNav1{
+    width: 20%;
+}
+.headNav2{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+.headNav2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+}
+.headNav3{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+.top{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.top img{
+    width: 100%;
+}
+.topFloatBox{
+    width: 95%;
+    height: 120px;
+    border-radius: 10px;
+    background-color: #b0adad;
+    position: absolute;
+    bottom:20px;
+    z-index: 1;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+.floatBut{
+    border-radius: 10px;
+    width: 250px;
+    border: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+.floatBut p{
+    padding-top: 10px;
+}
+.floatBut img{
+    width: 15%;
+}
+
+.modelSlider{
+    margin:30px;
+    display: flex;
+    flex-direction: column;
+
+}
+.modelSlideCont{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-transform: capitalize;
+}
+.modelSlideContBut{
+    display: flex;
+    gap: 10px;
+}
+.modelSlideContBut button{
+    padding: 3px 15px;
+    background-color: white;
+    border-radius: 6px;
+    font-weight: 600;
+    border: 2px solid;
+
+}
+.modelSlideContBut button:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.slideMain{
+    margin-top:20px;
+    display: flex;
+    gap: 20px;
+    box-sizing: border-box;
+    overflow: scroll;
+    overflow-y: hidden;
+
+}
+.slideBox{
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.slideBox h3{
+    margin-top: 15px;
+}
+.slideBox h4{
+    margin-top: 20px;
+}
+.tab{
+    width: 400px;
+    height: 30px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.tabBox{
+    height: 30px;
+    border-left: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:05px 10px;
+}
+.tabBox p{
+    padding-top: 15px;
+}
+.slideImg{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.slideImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.slideImgFloat{
+    width: 92%;
+    position: absolute;
+    bottom: 195px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-color: aliceblue;
+    border-radius: 10px;
+    background-color: #b0adad;
+    font-weight: 700;
+    opacity: 0.7;
+}
+.slideImgFloat p{
+    padding-top: 12px;
+}
+.slideImgFloat img{
+    width: 10%;
+}
+
+
+.book{
+    margin:30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.bookCard{
+    margin-top:20px;
+    display: flex;
+    
+    justify-content: space-between;
+    gap: 20px;
+}
+.bookCardBox{
+    width:30%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+.bookCardBoxImg img{
+    width: 100%;
+    height: 500px;
+    object-fit: fill;
+}
+ .bookCardBox h5{
+    font-size: 20px;
+    font-weight: 700;
+
+ }                  
+.bookCardBoxFloat{
+    width: auto;
+    height: 35px;
+    position: absolute;
+    background-color: black;
+    color: aliceblue;
+    bottom: 210px;
+    left: 10px;
+    display: flex;
+    padding: 5px;
+}
+.bookBut{
+    width: 180px;
+    padding:12px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5px;
+}
+.bookCard button:hover{
+    background-color: black;
+    color: white;
+
+}
+.bookBut img{
+    width: 20%;
+    object-fit: contain;
+}
+
+.watMakes{
+    width: 96%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 30px;
+
+}
+.watMakesBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.watMakesImg{
+    width: 100%;
+    height: 700px;
+}
+.watMakesImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.watMakesBoxCont{
+    
+    width: 50%;
+    position: relative;
+    
+}
+.watMakesFloat{
+    color: white;
+    position: absolute;
+    left: 150px;
+    bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #00000053;
+}
+.floatMakesBut{
+    border-radius: 10px;
+    padding: 0px 15px;
+    border: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+.floatMakesBut:hover{
+    background-color: white;
+    color: black;
+}
+.floatMakesBut p{
+    text-align: center;
+    padding-top: 10px;
+}
+.floatMakesBut img{
+    width: 20px;
+    border: none;
+}
+
+footer{
+    width: 100%;
+    height: 800px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.contactUs{
+    padding: 20px;
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+.contactUsLog{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contactUsLog h1{
+    margin-bottom: 30px;
+}
+.contactUsLog p{
+    color: grey;
+    font-size: 20px;
+}
+.contactUs button{
+    margin-left:250px ;
+    width: 40%;
+    padding: 10px 10px;
+    color: white;
+    background-color: black;
+    border-color: white;
+    border-radius: 10px;
+}
+.aboutUs{
+    width: 90%;
+    position: relative;
+    bottom: 0;
+    display: flex;
+    left: 70px;
+    justify-content: center;
+    gap: 75px;
+}
+.aboutUs a{
+    text-decoration: none;
+    color: white;
+    
+}

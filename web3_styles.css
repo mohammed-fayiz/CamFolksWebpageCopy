@@ -1,0 +1,545 @@
+*{
+    margin: 0;
+    
+}
+                                        /* navigation bAR */
+
+.nav{
+    padding-left: 30px;
+    background-color: #140342;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 2;
+}
+.logo
+{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.nav img{
+    width: 20%;
+    position: absolute;
+    left:60px;
+}
+.navList{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    right: 40px;
+}
+.navList a{
+    text-decoration: none;
+    color: white;
+}
+.navList a:hover{
+    color: rgb(2, 129, 86);
+    transition: all 1s linear;
+}
+
+                                        /* Slider Content */
+
+.top{
+    padding-top: 40px;
+}
+.slideContent{
+    margin:90px;
+    width: 50%;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+}
+.slideContent p{
+    width: 70%;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 100;
+}
+.slideContent img{
+    margin-left: 0;
+    width: 50%;
+}
+.slide_button1{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px 10px 30px;
+    background-color: #2e3589;
+    border: 0;
+    color: white;
+    border-radius: 3px;
+}
+.slide_button1 button:hover{
+    background-color:#0fb298;
+    border: 0;
+    color: white;
+}
+.slide_button2{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px 10px 30px;
+    background-color:#0fb298;
+    border: 0;
+    color: white;
+    border-radius: 3px;
+}
+.slides .smallbut button{
+    background-color: rgb(7, 0, 0);
+}
+
+                                                  /* Section */
+
+                                /* yt_and_about */
+section{
+    margin-top: 100px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sect1{
+    width: 90%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.ytVideo{
+    width: 48%;
+    height:98%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ytVideo iframe{
+    border: 5px solid;
+    border-color: #2e3589;
+    width:98%;
+    height:98%;
+    border-radius: 15px;
+}
+.aboutCamerin{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    text-align: justify;
+    flex-wrap: wrap;
+
+    animation: textSlide 2s 1 forwards;
+}
+
+.aboutCamerin h2{
+    color: #140342;
+    font-weight: 630;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.button1 button{
+    height: 50px;
+    padding: 10px 40px 10px 40px;
+    border: none;
+    background-color: #2e3589;
+    border-radius: 6px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.button2 button{
+    height: 50px;
+    padding: 10px 40px 10px 40px;
+    border: 1 solid;
+    border-color:#2e3589;
+    background-color:white;
+    border-radius: 6px;
+    color: #2e3589;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.button2 button:hover{
+    background-color: #2e3589;
+    color: white;
+}
+.button1 button:hover{
+    border: 2px solid;
+    border-color: #0fb298;
+    color: #0fb298;
+    background-color: white;
+}
+                            /* Camerin_Groups */
+.camGroup{
+    width: 90%;
+    height: 400px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}   
+.camGroupContent{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: medium solid #2e3589;
+    border-radius: 10px;
+    padding: 20px 20px;
+    
+}
+.camGroupContent p{
+    text-align: justify;
+    font-weight: 400;
+}
+.camGroupContent h5{
+    color: #140342;
+}
+.camGroupContent img{
+    width: 80%;
+}
+                                    /* framework_cources */
+.courses{
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+
+}
+.courseText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
+}
+.courseText h1{
+    color: #140342;
+    font-weight: 700;
+}
+.courseText p{
+    color: #2e3589;
+    font-weight: 400;
+    font-size: 18px;
+}
+.courseLine{
+    display: flex;
+    align-items: center;
+    gap: -5;
+}
+.courseLine1{
+    width: 250px;
+    height: 4px;
+    background-color: #2e3589;
+    border-radius: 10px;
+}
+.courseLine2{
+    margin-left: -5px;
+    width: 250px;
+    height: 4px;
+    background-color:rgb(15, 178, 152);
+    border-radius: 10px;
+}
+.coursePic{
+    width:90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.courseBox{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.courseBox img{
+    width: 100%;
+}
+
+.whyUs{
+    margin: 40px;
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.whyUsContent{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4,280px);
+    grid-template-rows: repeat(1,230px);
+    justify-content: center;
+    gap: 20px;
+}
+.WhyUsBox{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    border: medium solid;
+    border-color: #2e3589;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.WhyUsBox:hover{
+    border-color: #0fb298;
+}
+.WhyUsBox h5{
+    color: #140342;
+    font-size: 20px;
+}
+.WhyUsBox img{
+    width: 22%;
+}
+.WhyUsBox p{
+    text-align: center;
+    color: rgb(94, 92, 92);
+    font-size: smaller;
+}
+
+.feed{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.feedGrid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    grid-template-rows: repeat(5,300px);
+    justify-content: center;
+    gap: 10px;
+}
+.feedBox{
+    background-color: #0fb298;
+    display: flex;
+    flex-wrap: wrap;
+}
+.feedBox img{
+    width: 100%;
+    height: 100%;
+}
+.buttons2{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 10px;
+}
+.buttons2 ul{
+
+    list-style-image: url("./svg-icons/instagram-icon.svg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.but1{
+    height: 35px;
+    background-color:#2e3589;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    font-size: 12px;
+    padding: 2px 15px;
+
+}
+.but1:hover{
+    background-color: #0fb298;
+}
+.but2{
+    height: 35px;
+    background-color:rgb(244, 43, 157);
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    font-size: 12px;
+    padding: 2px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+}
+.but2 p{
+    padding-top: 10px;
+    color: white;
+}
+
+.but2:hover{
+    background-color: orange;
+}
+
+                                                    /* footer */
+                
+footer{
+    width: 100%;
+    height: 700px;
+    background-color:#140342;
+    color: white;
+    position: absolute;
+    margin-bottom: 0;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}  
+
+.footerMain{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerAbout{
+    width: 35%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footerAbout img{
+    width: 70%;
+}
+.footerAbout p{
+    text-align: justify;
+    word-spacing: 10px;
+}
+
+.footerAboutsocial{
+    width: 50%;
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+}
+.footerAboutsocial img{
+    width: 7%;
+}
+
+.footerCources{
+    margin-left: 60px;
+    width: 30%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.coursesLine{
+    width: 100px;
+    height: 20px;
+    border-top: 2px solid;
+    border-color: #0fb298;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.footerCources ul{
+    list-style-image: url("./svg-icons/icon.svg");
+}
+.footerCources li{
+    padding-left: 20px;
+    line-height: 35px;
+}
+
+.footerContact{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.footerContact1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.style1,.style2,.style3{
+    
+    line-height: 15px;
+}
+.style1{
+    list-style-image: url("./svg-icons/phone-icon.svg");
+}
+.style2{
+    list-style-image: url("./svg-icons/mail-icon.svg");
+}
+.style3{
+    list-style-image: url("./svg-icons/location-icon.svg");
+}
+.footerContact1 li{
+    padding-left: 20px;
+    font-size: 12px;
+}
+                        /* terms_and_conditions */
+.tANDc{
+    padding: 15px;
+    width: 90%;
+    border-top: .5px solid;
+    border-color: #2e3589;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+}
+.tANDc1{
+    display: flex;
+}
+.tANDc1 ul{
+    list-style-image: url("./svg-icons/t&c-icon.svg");
+}
+.tANDc1 li{
+    font-size: 15px;
+}
+
+
+                                                /* Animation key frames */
+
+@keyframes textSlide {
+    from{
+        width: 5%;
+        opacity:0;
+    }
+    to{
+        right:0;
+        opacity:1;
+    }    
+}                                                
